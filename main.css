@@ -1,0 +1,26 @@
+body{
+ display: flex;
+ place-items: center;
+ place-content: center;
+ height: calc(100vh - 3rem);
+ background: darkgray;
+}
+
+div.container{
+  background: black;
+ 
+}
+
+div.bloco{
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 50pt;
+}
+
+div.bloco{
+  width: 100px;
+  height: 100px;
+  background: gray;
+}
