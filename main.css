@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
 body{
  display: flex;
  place-items: center;
@@ -8,7 +15,6 @@ body{
 
 div.container{
   background: black;
- 
 }
 
 div.bloco{
@@ -23,4 +29,48 @@ div.bloco{
   width: 100px;
   height: 100px;
   background: gray;
+}
+
+.vitoria{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100vh;
+   width: 100vw;
+   background: rgba(0, 0, 0, .4);
+}
+
+.vitoria{
+   opacity: 0%;
+   visibility: hidden;
+   font-size: 35px;
+   word-spacing: -20px;
+   font-family: 'Press Start 2P', cursive;
+   color: red;
+   transition: all .5s;
+}
+
+
+.continuar{
+  margin-top: 5px;
+  font-size: 10px;
+  word-spacing: 0px;
+  align-self: center;
+  animation: piscar 2s infinite;
+}
+
+@keyframes piscar{
+  0%{
+   opacity: 100%;
+  }
+ 	50%{
+   opacity: 0%
+   }
+  100%{
+   opacity: 100%;
+   }
 }
