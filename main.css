@@ -13,20 +13,21 @@ body{
  background: darkgray;
 }
 
-div.container{
+.container{
   background: black;
 }
 
-div.bloco{
+.bloco{
   display: flex;
   place-items: center;
   justify-content: center;
   text-align: center;
   font-size: 50pt;
+  font-family: 'Arial';
 }
 
-div.bloco{
-  width: 100px;
+.bloco{
+	width: 100px;
   height: 100px;
   background: gray;
 }
@@ -73,4 +74,12 @@ div.bloco{
   100%{
    opacity: 100%;
    }
+}
+
+
+@media (max-width: 800px){
+	.bloco{
+		width: 200px;
+		height: 200px;
+	}
 }
