@@ -11,11 +11,12 @@ body{
  display: flex;
  place-items: center;
  place-content: center;
- background: darkgray;
+ background: rgb(50, 50, 60);
 }
 
 .container{
   background: black;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, .8);
 }
 
 .bloco{
@@ -23,14 +24,15 @@ body{
   place-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 50pt;
+  font-size: 120pt;
   font-family: 'Arial';
+  margin: 0;
 }
 
 .bloco{
 	width: 250px;
   height: 250px;
-  background: gray;
+  background: rgb(200, 200, 210);
 }
 
 .vitoria{
@@ -49,17 +51,16 @@ body{
 .vitoria{
    opacity: 0%;
    visibility: hidden;
-   font-size: 35px;
+   font-size: 85px;
    word-spacing: -20px;
    font-family: 'Press Start 2P', cursive;
    color: red;
    transition: all .5s;
 }
 
-
 .continuar{
   margin-top: 5px;
-  font-size: 10px;
+  font-size: 25px;
   word-spacing: 0px;
   align-self: center;
   animation: piscar 2s infinite;
@@ -81,5 +82,16 @@ body{
 	.bloco{
 		width: 100px;
 		height: 100px;
+		font-size: 50pt;
+		margin: 0;
+	}
+	
+	.vitoria{
+	  font-size: 35px;
+	}
+	
+	.continuar{
+	  font-size: 10px;
 	}
 }
+
