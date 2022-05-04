@@ -1,4 +1,4 @@
-import {marcarTabuleiro, resetAll, msgVitoria, testeVitoria} from './modules.js'
+import {marcarTabuleiro, resetAll, msgVitoria, testeVitoria, exibirVez} from './modules.js'
 
 const casas = document.querySelectorAll('.bloco')
 const linha = document.querySelectorAll('tr')
