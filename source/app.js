@@ -11,6 +11,7 @@ casas.forEach((el, j) => {
 
 table.addEventListener('click', e => {
       testeVitoria(linha)
+      exibirVez()
  })
 
 vitoria.addEventListener('click', () => {
