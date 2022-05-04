@@ -19,6 +19,7 @@ body{
    position: absolute;
    top: 15px;
    color: rgb(20, 20, 20);
+   font-size: 35pt;
    font-family: 'Press Start 2P', cursive;
 }
 
@@ -26,7 +27,8 @@ body{
    position: absolute;
    bottom: 55px;
    color: rgb(20, 20, 20);
-   line-height: 30px;
+   line-height: 55px;
+   font-size: 35pt;
    font-family: 'Press Start 2P', cursive;
 }
 
@@ -108,6 +110,15 @@ body{
 	
     .continuar{
 	font-size: 10px;
+	}
+	
+	#placar{
+	  font-size: 20pt;
+	  line-height: 30px;
+	}
+	
+	#vezJogador{
+	  font-size: 20pt;
 	}
 }
 
