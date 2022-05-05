@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('./fonts/press2play/PressStart2P-Regular.ttf') 
+  format('truetype');
+}
+
 html, body{
   padding: 0;
   margin: 0;
-  height:100vh;
+  height: 100vh;
   width: 100vw;
   overflow: hidden;
 }
@@ -20,16 +26,16 @@ body{
    position: absolute;
    top: 15px;
    color: rgb(20, 20, 20);
-   font-size: 35pt;
+   font-size: 20pt;
    font-family: 'Press Start 2P', cursive;
 }
 
 #placar{
    position: absolute;
-   bottom: 55px;
+   bottom: 20px;
    color: rgb(20, 20, 20);
-   line-height: 55px;
-   font-size: 35pt;
+   line-height: 30px;
+   font-size: 20pt;
    font-family: 'Press Start 2P', cursive;
 }
 
@@ -49,8 +55,8 @@ body{
 }
 
 .bloco{
-  width: 250px;
-  height: 250px;
+  width: 120px;
+  height: 120px;
   background: rgb(200, 200, 210);
 }
 
@@ -105,8 +111,8 @@ body{
 	margin: 0;
 	}
 	
-    .vitoria{
-        font-size: 35px;
+   .vitoria{
+       font-size: 35px;
 	}
 	
     .continuar{
@@ -114,12 +120,12 @@ body{
 	}
 	
 	#placar{
-	  font-size: 20pt;
+	  font-size: 15pt;
 	  line-height: 30px;
 	}
 	
 	#vezJogador{
-	  font-size: 20pt;
+	  font-size: 15pt;
 	}
 }
 
