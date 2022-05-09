@@ -60,7 +60,7 @@ body{
   background: rgb(200, 200, 210);
 }
 
-.vitoria{
+.status{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -73,7 +73,7 @@ body{
    background: rgba(0, 0, 0, .4);
 }
 
-.vitoria{
+.status{
    opacity: 0%;
    visibility: hidden;
    font-size: 70px;
@@ -103,6 +103,19 @@ body{
    }
 }
 
+#reiniciar{
+  position: relative;
+  border: none;
+  background: none;
+  color: lightgray;
+  font-size: 20pt;
+  width: 70%;
+  border-bottom: 2px solid lightgray;
+  padding: 0;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+}
+
 @media screen and (max-width: 600px){
     .bloco{
 	width: 100px;
@@ -111,18 +124,18 @@ body{
 	margin: 0;
 	}
 	
-   .vitoria{
+   .status{
        font-size: 35px;
-	}
+	  }
 	
     .continuar{
-	font-size: 10px;
-	}
+    	font-size: 10px;
+  	}
 	
-	#placar{
-	  font-size: 15pt;
-	  line-height: 30px;
-	}
+  	#placar{
+	    font-size: 15pt;
+	    line-height: 30px;
+	  }
 	
 	#vezJogador{
 	  font-size: 15pt;
