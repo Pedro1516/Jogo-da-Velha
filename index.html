@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, user-scalable=no">
@@ -7,12 +7,18 @@
     <title>jogo da velha</title>
   </head>
   <body>
-   <div class="vitoria">
+   <div class="vitoria status">
       VOCÊ GANHOU!
+      <sub class="continuar">Clique para continuar</sub>
+    </div>
+   <div class="empate status">
+      É um empate
       <sub class="continuar">Clique para continuar</sub>
     </div>
     
     <span id="vezJogador">Vez de X</span>
+    
+    <input type="button" id="reiniciar" value="Reiniciar" />
     
     <div class="container">
       <table class="tabuleiro">
